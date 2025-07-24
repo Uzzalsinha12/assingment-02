@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+.noto-serif-font {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* share-style */
+
+*{
+    background: rgb(245, 248, 255);
+}
+
+.display-flex{
+    display: flex;
+   
+}
+.description {
+    /* width: 570px; */
+    font-size: 1.37rem;
+    font-weight: 400;
+}
+main{
+    max-width: 1140px; 
+    margin: 0px auto;
+    
+}
+.text-title{
+    color: rgb(233, 90, 8)
+}
+.text-title-2{
+    font-size: 3.12rem;
+}
+
+.dark-3{
+   color: rgba(0, 0, 0, 0.5); 
+}
+
+.btn-primary{
+    width: 270px;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 26px 50px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background: rgb(233, 90, 8);
+
+}
+
+/* navbar */
+.navbar{
+    border: 1px solid tomato; 
+    justify-content: space-between; 
+    align-items: center;
+    max-width: 1140px; 
+    margin: 0px auto;
+    
+}
+
+.nav-item{
+   list-style: none; 
+   margin-right: 48px;
+   padding: 22px 0px;
+}
+.nav-link{
+   text-decoration: none;
+   font-size: 1rem;
+   font-weight: 400;
+}
+
+/* banner */
+.banner{
+    border: 2px solid tomato; 
+    margin-top: 120px;
+    align-items: flex-end;
+
+}
+.banner h2{
+    width: 517px;
+    font-size: 4rem;
+    font-weight: 700;
+    margin:13px 0px;
+}
+
+
+/* carts-style */
+
+.cart-container{
+    margin-top: 120px;
+    /* border: 3px solid blue; */
+}
+
+.cart-info{
+    /* border: 1px solid tomato; */
+    text-align: center;
+    padding: 0px 126px;
+    /* max-width: 888px; */
+}
+.cart-info h3{
+    margin: 0 0 0 16px;
+}
+
+.carts{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px 20px;
+    
+}
+.carts h5{
+    font-size: 1.37rem;
+    font-weight: 500;
+    color: rgb(17, 17, 17);
+
+}
+.carts h4{
+    margin-top: 20px;
+    font-size: 1.37rem;
+    font-weight: 700;
+}
+
+/* flower& plants */
+
+.flower-plants{
+    border: 1px solid blue;
+    margin-top: 120px;
+    gap: 60px;
+}
+
+.badge-1 {
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    width: 286px;
+    margin-left: -190px;
+    margin-top: -120px;
+    background: transparent;
+ 
+}
+
+.image-1{
+ position: absolute;
+}
+.image-2{
+    width: 286px;
+    height: 286px;
+    
+    background: transparent;
+   position: relative;
+}
+
+ .flower-plants h3{
+    margin-top: 30px;
+    margin-bottom: 15px;
+ }
+
+ .flower-plants ul li{
+    margin-top:16px ;
+ }
+
+
+
+
+
+
+footer{
+    max-width: 1440px;
+    margin: auto;
+    /* border: 2px solid blue; */
+    margin-top: 120px;
+    padding: 50px 160px;
+    justify-content: space-between;
+    
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(18px);
+    background: rgba(255, 255, 255, 0.5);
+}
+footer p{
+    color: rgba(0, 0, 0, 0.5);
+        width: 350px;
+        font-size: 1.37rem;
+        font-weight: 400;
+}
+footer ul li{
+    list-style: none;
+   
+    margin-top: 30px;
+}
+footer ul li a{
+    color: rgb(107, 114, 128);
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+    
+}
+.icon{
+    justify-items: center;
+    text-align: center;
+}
+.icon img{
+    margin-right: 24px;
+}
+
+@media screen  and (max-width:576px){
+    
+    .banner,
+    .carts,
+    .flower-plants,
+    footer{
+        flex-direction: column;
+    }
+     
+    #hide{
+
+        display: none;
+    }
+     
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .carts{
+      grid-template-columns: repeat(2, 1fr);
+    }
+    footer{
+        padding: 20px;
+    }
+}
