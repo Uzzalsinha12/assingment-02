@@ -4,71 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-       
+        <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
 
-    .banner{
-       /* border: 2px solid tomato;  */
-        margin: 0px auto;
-        text-align: center;
-       
-    }
-    .input-btn{
-        justify-content: center;
-        /* text-align: center; */
-    }
-    .image{
-        width: 100%; 
-        position: absolute;
-    }
-    .text{
-         padding: 199px 0px;
-        position: relative;
-    }
-    .text h2{
-        color: rgb(255, 255, 255);
-         margin: 0px;
-         font-size: 50px;
-        font-weight: 700;
-    }
-   .text input{
-    border: none;
-    width: 630px;
-    height: 50px;
-    font-size: 1rem;
-    padding-left: 20px;
-   }
-   .text button{
-    border: none;
-    background: rgb(233, 90, 8);
-    padding: 18px 50px;
-   }
-    
-   .display-flex{
-    display: flex;
-   }
-       
-    </style>
+        <style>
+            .section-1{
+                display: flex;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                border: 2px solid tomato;
+                max-width: 1140px;
+                margin: 0px auto;
+            }
+            .section-2{
+                background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgb(0, 0, 0, 0.2)), url(assets/deal-bloom.png);  
+                background-size: cover;
+                background-repeat: no-repeat;
+                width: 366px;
+                height: 206px;
+                text-align: center;
+                padding-top: 50px;
+                color: white;
+                border-radius: 10px;
+            }
+            .section-2 a{
+                color: white;
+            }
+            #box-2{
+                grid-column: span 3;
+                grid-row: span 2;
+            }
+        </style>
+
 </head>
 <body>
-    <div class="banner">
-        <div class="image">
-           <img src="assets/news-letter-bg.png" alt="">
-        </div>
-        <div class="text">
-            <h2>Join the colorful Bunch</h2>
-            <div class=" input-btn display-flex">
-                <div>
-                    <input type="email" placeholder="Write email">
-                </div>
-                <div>
-                    <button>SubsCribe Now</button>
-                </div>
+
+
+<section>
+
+    <div class="section-1">
+        <div class="section-2">
+            <div class="text-">
+                <h3>60% off | Bloom plant</h3>
+                <a href="">Shop Now</a>
             </div>
-          
         </div>
-           
-        
+        <div  class="section-2 " id="box-2">
+            <div class="text-">
+                <h3>60% off | Bloom plant</h3>
+                <a href="">Shop Now</a>
+            </div>
+        </div>
+        <div class="section-2">
+            <div class="text-">
+                <h3>60% off | Bloom plant</h3>
+                <a href="">Shop Now</a>
+            </div>
+        </div>
     </div>
+
+    <div> <div class="box"></div></div>
+   
+</section>
 </body>
 </html>
