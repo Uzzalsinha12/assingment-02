@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+      .container-2{
+        /* border: 3px solid gold; */
+        max-width: 1140px;
+        margin: 0px auto;
+        display: flex;
+        justify-content: space-between;
+        gap: 24px;
+      }
+      
+      .image-1{
+        background-image: url(assets/deal-bloom.png);
+        width: 366px;
+        height: 206px;
+        margin-top: -14px;
+        border-radius: 10px;
+         text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .image-1 h3{
+         color: rgb(255, 255, 255);
+          font-size: 1.25rem;
+          font-weight: 700;
+           padding-top: 65px ;
+      }
+      .image-1 a{
+        color: rgb(255, 255, 255);
+        font-size: 1rem;
+        font-weight: 600;
+      }
+      .image-3{
+        background-image: url(assets/deal-ana.png);
+        width: 366px;
+        height: 228px;
+        border-radius: 10px;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+     }
+      .image-3 h3{
+         color: rgb(255, 255, 255);
+          font-size: 1.25rem;
+          font-weight: 700;
+           padding-top: 65px ;
+      }
+      .image-3 a{
+        color: rgb(255, 255, 255);
+        font-size: 1rem;
+        font-weight: 600;
+      }
+
+      .image-2{
+        background-image: url(assets/deal-zabo.png);
+         width: 753px;
+        height: 421pxpx;
+        border-radius: 20px;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .image-2 h3{
+         color: rgb(255, 255, 255);
+          font-size: 3.7rem;
+          font-weight: 700;
+           padding-top: 150px ;
+           margin: 15px 0 25px 0;
+      }
+      .image-2 a{
+        color: rgb(255, 255, 255);
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+
+      
+
+      
+      @media screen and ( max-width:576px) {
+         .container-2{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            flex-direction: column;
+         }
+         .image-2{
+            width: 333px;
+            height: 210px;
+         }
+      }
+
+    </style>
+
+</head>
+<body>
+     <section class="container-2">
+        <div class="container-3">
+            <div class="image-1">
+             <h3>60% off | Bloom Plant</h3>
+             <a href=""> Shop Now</a>
+            </div>
+            <div class="image-3">
+            <h3>30% off | Ana Plant</h3>
+            <a href=""> Shop Now</a>
+            </div>
+        </div>
+        <div class="image-2">
+        <h3>25% off | Zabo Plant</h3>
+        <a href=""> Shop Now</a>
+        </div>
+     </section>
+</body>
+</html>

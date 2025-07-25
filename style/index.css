@@ -11,36 +11,40 @@
 
 /* share-style */
 
-*{
+* {
     background: rgb(245, 248, 255);
 }
 
-.display-flex{
+.display-flex {
     display: flex;
-   
+
 }
+
 .description {
     /* width: 570px; */
     font-size: 1.37rem;
     font-weight: 400;
 }
-main{
-    max-width: 1140px; 
+
+main {
+    max-width: 1140px;
     margin: 0px auto;
-    
+
 }
-.text-title{
+
+.text-title {
     color: rgb(233, 90, 8)
 }
-.text-title-2{
+
+.text-title-2 {
     font-size: 3.12rem;
 }
 
-.dark-3{
-   color: rgba(0, 0, 0, 0.5); 
+.dark-3 {
+    color: rgba(0, 0, 0, 0.5);
 }
 
-.btn-primary{
+.btn-primary {
     width: 270px;
     font-size: 1rem;
     font-weight: 600;
@@ -52,72 +56,74 @@ main{
 }
 
 /* navbar */
-.navbar{
-    border: 1px solid tomato; 
-    justify-content: space-between; 
+.navbar {
+    border: 1px solid tomato;
+    justify-content: space-between;
     align-items: center;
-    max-width: 1140px; 
+    max-width: 1140px;
     margin: 0px auto;
-    
+
 }
 
-.nav-item{
-   list-style: none; 
-   margin-right: 48px;
-   padding: 22px 0px;
+.nav-item {
+    list-style: none;
+    margin-right: 48px;
+    padding: 22px 0px;
 }
-.nav-link{
-   text-decoration: none;
-   font-size: 1rem;
-   font-weight: 400;
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 /* banner */
-.banner{
-    border: 2px solid tomato; 
+.banner {
+    border: 2px solid tomato;
     margin-top: 120px;
     align-items: flex-end;
 
 }
-.banner h2{
+
+.banner h2 {
     width: 517px;
     font-size: 4rem;
     font-weight: 700;
-    margin:13px 0px;
+    margin: 13px 0px;
 }
-
 
 /* carts-style */
 
-.cart-container{
-    margin-top: 120px;
-    /* border: 3px solid blue; */
+.cart-container {
+    margin-top: 120p;
 }
 
-.cart-info{
-    /* border: 1px solid tomato; */
+.cart-info {
     text-align: center;
     padding: 0px 126px;
-    /* max-width: 888px; */
+
 }
-.cart-info h3{
+
+.cart-info h3 {
     margin: 0 0 0 16px;
 }
 
-.carts{
+.carts {
     text-align: center;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px 20px;
-    
+
 }
-.carts h5{
+
+.carts h5 {
     font-size: 1.37rem;
     font-weight: 500;
     color: rgb(17, 17, 17);
 
 }
-.carts h4{
+
+.carts h4 {
     margin-top: 20px;
     font-size: 1.37rem;
     font-weight: 700;
@@ -125,8 +131,7 @@ main{
 
 /* flower& plants */
 
-.flower-plants{
-    border: 1px solid blue;
+.flower-plants {
     margin-top: 120px;
     gap: 60px;
 }
@@ -141,58 +146,137 @@ main{
     margin-left: -190px;
     margin-top: -120px;
     background: transparent;
- 
 }
 
-.image-1{
- position: absolute;
+.image-1 {
+    position: absolute;
 }
-.image-2{
+
+.image-2 {
     width: 286px;
     height: 286px;
-    
     background: transparent;
-   position: relative;
+    position: relative;
 }
 
- .flower-plants h3{
+.flower-plants h3 {
     margin-top: 30px;
     margin-bottom: 15px;
- }
+}
 
- .flower-plants ul li{
-    margin-top:16px ;
- }
+.flower-plants ul li {
+    margin-top: 16px;
+}
 
-
-.deals-content{
+.deals-content {
     margin-top: 120px;
     border: 1px solid tan;
     text-align: center;
 }
-.deals-content h3{
-    margin:0 0 16px 0;
+
+.deals-content h3 {
+    margin: 0 0 16px 0;
 }
-.deals-content p{
+
+.deals-description {
     padding: 0 265px;
 }
 
 
-.colorful-bunch-container{
+.discount-container{
+    margin-top: 120px;
+    gap: 24px;
+     border: 2px solid blue;
+    justify-content: space-between;   
+}
+
+.discount-cart-1{
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.6), rgb(0, 0, 0, 0.2)), url(../assets/deal-bloom.png);
+    width: 366px;
+    height: 206px;
+    border-radius: 10px;
+    margin-top: -17px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+ 
+.discount-cart-3{
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.6), rgb(0, 0, 0, 0.2)), url(../assets/deal-ana.png);
+    width: 366px;
+    height: 200px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.cart-text-title{
+   color: rgb(255, 255, 255);
+    padding-top: 60px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    background: transparent;
+
+}
+.cart-btn{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600;
+    width: 270px;
+    border: none;
+    background: transparent;
+}
+.cart-btn a{
+    color: rgb(255, 255, 255);
+    background: transparent;
+}
+
+.discount-cart-2{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgb(0, 0, 0, 0.2)), url(../assets/deal-zabo.png);
+    width: 753px;
+     height: 423px;
+     border-radius: 20px;
+     background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.cart-text-title-3{
+    margin: 16px 0 16px 0;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    padding-top: 150px;
+     background: transparent;
+}
+.cart-btn-3{
+    color: rgb(255, 255, 255);
+        font-size: 2rem;
+        font-weight: 600;
+        width: 270px;
+        border: none;
+        background: transparent;
+}
+.cart-btn-3 a{
+    color: rgb(255, 255, 255);
+        background: transparent;
+}
+
+
+.colorful-bunch-container {
     margin: 0px auto;
     margin-top: 120px;
     border: 1px solid tomato;
     max-width: 1440px;
     height: 533px;
-    /* padding: 233px 0px; */
     background-image: url(../assets/news-letter-bg.png);
     background-size: cover;
     background-position: center;
     text-align: center;
 
-    
+
 }
-.colorful-bunch-container h3{
+
+.colorful-bunch-container h3 {
     padding-top: 199px;
     margin: 0 0 20px 0;
     font-size: 3.2rem;
@@ -200,89 +284,111 @@ main{
     background: transparent;
 }
 
-.input-btn{
+.input-btn {
     background: transparent;
     justify-content: center;
-    /* text-align: center; */
 }
- .input-btn input{
+
+.input-btn input {
     font-size: 1rem;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
     width: 630px;
     height: 50px;
-    padding-left:20px ;
+    padding-left: 20px;
     border: none;
- }
- .input-btn button{
+}
+
+.input-btn button {
     width: 185px;
     color: rgb(255, 255, 255);
     background: rgb(233, 90, 8);
     font-size: 1rem;
     font-weight: 600;
     border: none;
- }
+}
 
-footer{
+footer {
     max-width: 1440px;
     margin: auto;
-    /* border: 2px solid blue; */
     margin-top: 120px;
     padding: 50px 160px;
     justify-content: space-between;
-    
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(18px);
     background: rgba(255, 255, 255, 0.5);
 }
-footer p{
+
+footer p {
     color: rgba(0, 0, 0, 0.5);
-        width: 350px;
-        font-size: 1.37rem;
-        font-weight: 400;
+    width: 350px;
+    font-size: 1.37rem;
+    font-weight: 400;
 }
-footer ul li{
+
+footer ul li {
     list-style: none;
-   
+
     margin-top: 30px;
 }
-footer ul li a{
+
+footer ul li a {
     color: rgb(107, 114, 128);
     font-size: 1rem;
     font-weight: 400;
     text-decoration: none;
-    
+
 }
-.icon{
+
+.icon {
     justify-items: center;
     text-align: center;
 }
-.icon img{
+
+.icon img {
     margin-right: 24px;
 }
 
-@media screen  and (max-width:576px){
-    
-    .banner,
+@media screen and (max-width:576px) {
+   .banner,
     .carts,
     .flower-plants,
     .deals-content,
+    .discount-container,
     .colorful-bunch-container,
-    footer{
+    footer {
         flex-direction: column;
     }
-     
-    #hide{
-       display: none;
+
+    #hide {
+        display: none;
     }
-     
-    .banner{
+
+    .banner {
         flex-direction: column-reverse;
     }
-    .carts{
-      grid-template-columns: repeat(2, 1fr);
+
+    .carts {
+        grid-template-columns: repeat(2, 1fr);
     }
-    footer{
+
+    .deals-description{
+        padding: 20px;
+    }
+    .discount-cart-2{
+        width: 366px;
+        height: 206px;
+    }
+    .cart-text-title-3{
+        padding-top: 60px;
+        font-size: 1.25rem;
+        
+    }
+    .cart-btn-3 a{
+        font-size: 1rem;
+
+    }
+    footer {
         padding: 20px;
     }
 }
