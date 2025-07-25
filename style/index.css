@@ -57,7 +57,6 @@ main {
 
 /* navbar */
 .navbar {
-    border: 1px solid tomato;
     justify-content: space-between;
     align-items: center;
     max-width: 1140px;
@@ -79,12 +78,9 @@ main {
 
 /* banner */
 .banner {
-    border: 2px solid tomato;
     margin-top: 120px;
     align-items: flex-end;
-
 }
-
 .banner h2 {
     width: 517px;
     font-size: 4rem;
@@ -101,7 +97,6 @@ main {
 .cart-info {
     text-align: center;
     padding: 0px 126px;
-
 }
 
 .cart-info h3 {
@@ -170,7 +165,6 @@ main {
 
 .deals-content {
     margin-top: 120px;
-    border: 1px solid tan;
     text-align: center;
 }
 
@@ -186,7 +180,6 @@ main {
 .discount-container{
     margin-top: 120px;
     gap: 24px;
-     border: 2px solid blue;
     justify-content: space-between;   
 }
 
@@ -268,7 +261,7 @@ main {
     border: 1px solid tomato;
     max-width: 1440px;
     height: 533px;
-    background-image: url(../assets/news-letter-bg.png);
+    background-image: linear-gradient(to top, rgba(7, 51, 79, 0.4), rgba(7, 51, 79, 0.2)), url(../assets/news-letter-bg.png);
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -359,6 +352,15 @@ footer ul li a {
     footer {
         flex-direction: column;
     }
+     .navbar,
+    .banner,
+    .carts,
+    .flower-plants,
+    .deals-content,
+    .colorful-bunch-container,
+    footer{
+       margin: 40px 20px;
+        }
 
     #hide {
         display: none;
@@ -374,6 +376,9 @@ footer ul li a {
 
     .deals-description{
         padding: 20px;
+    }
+    .discount-container{
+        margin: 0px 80px;
     }
     .discount-cart-2{
         width: 366px;
