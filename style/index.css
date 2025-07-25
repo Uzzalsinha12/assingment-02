@@ -305,7 +305,7 @@ footer {
     max-width: 1440px;
     margin: auto;
     margin-top: 120px;
-    padding: 50px 160px;
+    /* padding: 50px 160px; */
     justify-content: space-between;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(18px);
@@ -354,7 +354,6 @@ footer ul li a {
     }
      .navbar,
     .banner,
-    .carts,
     .flower-plants,
     .deals-content,
     .colorful-bunch-container,
@@ -371,6 +370,7 @@ footer ul li a {
     }
 
     .carts {
+        margin: 0p 20px;
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -378,7 +378,7 @@ footer ul li a {
         padding: 20px;
     }
     .discount-container{
-        margin: 0px 80px;
+        margin: 0 90px;
     }
     .discount-cart-2{
         width: 366px;
